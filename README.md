@@ -27,7 +27,7 @@ Major frameworks/libraries used for this project:
 * [Node.js](https://nodejs.org/en/)
 * [Express.js](https://expressjs.com/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"></p>
 
 
 
@@ -39,18 +39,9 @@ Major frameworks/libraries used for this project:
 - [ ] Provide hyperlinks for each player to link to individual match history. 
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"></p>
 
 
-
-<!-- CONTACT -->
-## Contact
-
-Paul Franco - Paulfranco.e@gmail.com
-
-Project Link: [https://github.com/francosae/LoL-PlayerSearch](https://github.com/francosae/LoL-PlayerSearch)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -63,7 +54,7 @@ List resources I found helpful.
 * [Riot Developer Documentation](https://developer.riotgames.com/docs/lol)
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"></p>
 
 Summoner Recap isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
 
