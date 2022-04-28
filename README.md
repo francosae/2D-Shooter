@@ -21,12 +21,11 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
+![HomeScreen](https://user-images.githubusercontent.com/69439997/165823673-fe1b7038-14c9-44b0-98a8-923ca27064be.png)
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## League of Legends Player In
 
-![HomeScreen](https://user-images.githubusercontent.com/69439997/165823673-fe1b7038-14c9-44b0-98a8-923ca27064be.png)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
