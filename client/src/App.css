@@ -1,0 +1,855 @@
+/*Random Champion Background*/
+
+
+
+:root {
+  --black: 
+rgba(0, 0, 0, 1);
+  --fuel-yellow: 
+rgba(232, 169, 48, 1);
+  --white: 
+rgba(255, 255, 255, 1);
+
+}
+
+body {
+  background-size: cover;
+}
+
+.Container{
+  background-size: cover;
+  height: 100vh;
+  padding: 0px;
+  padding-bottom: 280px;
+}
+/*
+.Background{
+    background-size: cover;
+  height: 100vh;
+  padding: 0px;
+  padding-bottom: 155px;
+  opacity: 0.5;
+}*/
+.Title{
+-webkit-text-stroke: 4px var(--black);
+margin: auto;
+width: 50%;
+text-align: center;
+white-space: nowrap; 
+position: absolute;
+width: 1068px;
+height: 118px;
+left: 426px;
+top: 150px;
+
+font-family: 'Friz Quadrata';
+font-style: normal;
+font-size: 128px;
+line-height: 118px;
+
+color: #E8A930;
+
+}
+
+.Subtitle{
+-webkit-text-stroke: 1.5px var(--black);
+margin: auto;
+width: 50%;
+text-align: center;
+white-space: nowrap; 
+position: absolute;
+width: 762px;
+height: 37px;
+left: 579px;
+top: 268px;
+
+font-family: 'Friz Quadrata';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+
+color: #E8A930;
+}
+
+.InputBox{
+  text-align: center;
+}
+
+input[type=text]{
+position: absolute;
+width: 850px;
+height: 50px;
+left: 535px;
+top: 366px;
+border-radius: 40px;
+border: 3px solid #141414;
+
+background: rgba(255, 255, 255,);
+
+text-align: center;
+font-size: 30px;
+font-family: 'Friz Quadrata';
+font-style: normal;
+font-weight: 400;
+}
+
+input[type=text]:focus{
+  border: 3px solid #000000;
+}
+
+.button{
+position: absolute;
+width: 100px;
+height: 58px;
+left: 1295px;
+top: 366px;
+
+background: #E8A930;
+border: 2px solid #000000;
+border-radius: 40px;
+
+
+text-align: center;
+font-size: 20px;
+font-family: 'Friz Quadrata';
+font-style: normal;
+font-weight: 400;
+}
+
+.button:active{
+background: #D49C2E;
+}
+
+
+
+
+
+
+
+
+
+
+.SummonerProfile{
+position: absolute;
+width: 440px;
+height: 550px;
+left: 55px;
+top: 55px;
+background: rgba(2, 25, 54, 0.6);
+border-radius: 30px;
+}
+
+.SummonerName{
+position: absolute;
+width: 298px;
+height: 33px;
+left: 71px;
+top: 390px;
+
+text-align: center;
+
+font-family: 'Friz Quadrata';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 33px;
+
+color: #FFFFFF;
+}
+
+.SummonerLevel{
+  position: absolute;
+  width: 71px;
+  height: 28px;
+  left: 178px;
+  top: 452px;
+  white-space: nowrap; 
+  text-align: center;
+  font-family: 'Friz Quadrata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  
+  
+  color: #FFFFFF;
+}
+
+.LevelBox{
+position: absolute;
+width: 165px;
+height: 49px;
+left: 133px;
+top: 441px;
+
+background: rgba(13, 51, 101, 0.6);
+border: 3px solid #E8A930;
+border-radius: 15px;
+}
+
+.SummonerIcon{
+position: absolute;
+width: 287px;
+height: 287px;
+left: 76px;
+top: 60px;
+object-fit: cover;
+border-radius: 50%;
+
+border: 6px solid #E8A930;
+}
+
+
+
+
+
+.RankedProfile{
+  position: absolute;
+  width: 440px;
+  height: 330px;
+  left: 55px;
+  top: 660px;
+  background: rgba(2, 25, 54, 0.6);
+  border-radius: 31px;
+}
+
+.RankedIcon{
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 55px;
+  top: 55px;  
+}
+
+.Rank{
+  position: absolute;
+  width: 92px;
+  height: 29px;
+  left: 220px;
+  top: 78px;
+  white-space: nowrap; 
+  font-family: 'Friz Quadrata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 29px;
+  
+  color: #FFFFFF;
+}
+
+.LeaguePoints{
+position: absolute;
+width: 68px;
+height: 29px;
+left: 220px;
+top: 112px;
+white-space: nowrap; 
+font-family: 'Friz Quadrata';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+.WinLoss{
+  position: absolute;
+  width: 104px;
+  height: 46px;
+  left: 55px;
+  top: 196px;
+  white-space: pre;
+  font-family: 'Friz Quadrata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 23px;
+  
+  color: #FFFFFF;
+}
+
+.WinRate{
+position: absolute;
+width: 149px;
+height: 23px;
+left: 220px;
+top: 207px;
+white-space: nowrap; 
+font-family: 'Friz Quadrata';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+.RankedProfile:hover{
+  background: rgba(13, 51, 101, 0.80);
+}
+
+.SummonerProfile:hover{
+  background: rgba(13, 51, 101, 0.80);
+}
+
+.MatchesContainer{
+position: absolute;
+width: 1320px;
+top: 55px;
+left: 550px;
+}
+
+.Matchestrue{
+  position: relative;
+  width: 1320px;
+  height: 220px;
+  left: 0px;
+  top: 0px;
+  background: rgba(2, 25, 54, 0.6);
+  border-radius: 30px;
+  margin-bottom: 19px
+}
+.Matchestrue:hover{
+  background: rgba(13, 51, 101, 1.0);
+}
+
+.truebar{
+  position: absolute;
+  left: 0%;
+  right: 97.73%;
+  top: 0%;
+  bottom: 0%;
+
+  background: rgba(13, 51, 101, 0.80);
+  border-radius: 30px 0px 0px 30px;
+}
+
+.falsebar{
+  position: absolute;
+  left: 0%;
+  right: 97.73%;
+  top: 0%;
+  bottom: 0%;
+  
+  background: rgba(101, 13, 13, 0.9);
+  border-radius: 30px 0px 0px 30px;
+}
+
+.GameTime{
+position: absolute;
+left: 31.74%;
+right: 63.03%;
+top: 14.09%;
+bottom: 79.09%;
+
+white-space: nowrap;
+
+font-family: 'Friz Quadrata';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 15px;
+color: #FFFFFF;
+
+}
+.Matchesfalse{
+  position: relative;
+  width: 1320px;
+  height: 220px;
+  left: 0px;
+  top: 0px;
+  background: rgba(101, 13, 13, 0.65);
+  border-radius: 30px;
+  margin-bottom: 19px
+}
+
+.Matchesfalse:hover{
+    background: rgba(101, 13, 13, 1.0);
+}
+.PlayerIcon{
+  position: absolute;
+  left: 4.17%;
+  right: 87.5%;
+  top: 15%;
+  bottom: 40%;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 3px solid #E8A930;
+}
+.PlayerKDA{
+  position: absolute;
+  left: 31.06%;
+  right: 59.62%;
+  top: 31.36%;
+  bottom: 55.91%;
+  font-family: 'Friz Quadrata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.ChampionName{
+position: absolute;
+left: 4.17%;
+right: 86.67%;
+top: 81.36%;
+bottom: 8.18%;
+
+font-family: 'Friz Quadrata';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 23px;
+color: #FFFFFF;
+text-align: center;
+}
+.PlayerLevel{
+  position: absolute;
+left: 31.74%;
+right: 60.23%;
+top: 56.36%;
+bottom: 30.91%;
+white-space: nowrap;
+font-family: 'Friz Quadrata';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+.Item0{
+  position: absolute;
+  left: 58.33%;
+  right: 37.5%;
+  top: 25%;
+  bottom: 50%;
+  
+  border: 1px solid #000000;
+}
+.Item1{
+  position: absolute;
+  left: 45.83%;
+  right: 50%;
+  top: 25%;
+  bottom: 50%;
+  
+ 
+  border: 1px solid #000000;
+}
+.Item2{
+  position: absolute;
+  left: 50%;
+  right: 45.83%;
+  top: 25%;
+  bottom: 50%;
+
+  border: 1px solid #000000;
+}
+.Item3{
+  position: absolute;
+  left: 54.17%;
+  right: 41.67%;
+  top: 25%;
+  bottom: 50%;
+  
+ 
+  border: 1px solid #000000;
+}
+.Item4{
+  position: absolute;
+  left: 45.83%;
+  right: 50%;
+  top: 50%;
+  bottom: 25%;
+
+  border: 1px solid #000000;
+}
+.Item5{
+  position: absolute;
+  left: 50%;
+  right: 45.83%;
+  top: 50%;
+  bottom: 25%;
+
+  border: 1px solid #000000;
+}
+.Item6{
+  position: absolute;
+  left: 54.17%;
+  right: 41.67%;
+  top: 50%;
+  bottom: 25%;
+
+  border: 1px solid #000000;
+}
+
+.Player1{
+  position: absolute;
+  left: 66.67%;
+  right: 30.3%;
+  top: 4.55%;
+  bottom: 77.27%;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.Player2{
+  position: absolute;
+  left: 66.67%;
+  right: 30.3%;
+  top: 22.73%;
+  bottom: 59.09%;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.Player3{
+  position: absolute;
+  left: 66.67%;
+  right: 30.3%;
+  top: 40.91%;
+  bottom: 40.91%;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.Player4{
+  position: absolute;
+  left: 66.67%;
+  right: 30.3%;
+  top: 59.09%;
+  bottom: 22.73%;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.Player5{
+  position: absolute;
+  left: 66.67%;
+  right: 30.3%;
+  top: 77.27%;
+  bottom: 4.55%;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.Player6{
+  position: absolute;
+  left: 83.48%;
+  right: 13.48%;
+  top: 4.55%;
+  bottom: 77.27%;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.Player7{
+  position: absolute;
+  left: 83.48%;
+  right: 13.48%;
+  top: 22.73%;
+  bottom: 59.09%;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.Player8{
+  position: absolute;
+  left: 83.48%;
+  right: 13.48%;
+  top: 40.91%;
+  bottom: 40.91%;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.Player9{
+  position: absolute;
+  left: 83.48%;
+  right: 13.48%;
+  top: 59.09%;
+  bottom: 22.73%;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.Player10{
+  position: absolute;
+  left: 83.48%;
+  right: 13.48%;
+  top: 77.27%;
+  bottom: 4.55%;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+
+.RankButton{
+position: absolute;
+width: 252px;
+height: 36px;
+left: 94px;
+top: 9px;
+color: #FFFFFF;
+font-weight: 400;
+font-size: 15px;
+font-family: 'Friz Quadrata';
+background: rgba(83, 120, 168, 0.7);
+border-radius: 50px;
+}
+.Player1Name{
+  position: absolute;
+  left: 70.23%;
+  right: 23.26%;
+  top: 7.27%;
+  bottom: 80%;
+  white-space: nowrap; 
+  font-family: 'Friz Quadrata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+}
+.Player2Name{
+  position: absolute;
+  left: 70.23%;
+  right: 23.26%;
+  top: 25.45%;
+  bottom: 61.82%;
+  white-space: nowrap; 
+  font-family: 'Friz Quadrata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+  
+}
+.Player3Name{
+  position: absolute;
+  left: 70.23%;
+  right: 23.26%;
+  top: 41.82%;
+  bottom: 45.45%;
+  white-space: nowrap; 
+  font-family: 'Friz Quadrata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+  
+}
+.Player4Name{
+  position: absolute;
+  left: 70.3%;
+  right: 23.18%;
+  top: 60.45%;
+  bottom: 26.82%;
+  white-space: nowrap; 
+  font-family: 'Friz Quadrata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+}
+.Player5Name{
+  position: absolute;
+  left: 70.23%;
+  right: 23.26%;
+  top: 80%;
+  bottom: 7.27%;
+  white-space: nowrap; 
+  font-family: 'Friz Quadrata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+}
+.Player6Name{
+  position: absolute;
+  left: 87.12%;
+  right: 6.36%;
+  top: 7.27%;
+  bottom: 80%;
+  white-space: nowrap; 
+  font-family: 'Friz Quadrata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+}
+.Player7Name{
+  position: absolute;
+  left: 87.12%;
+  right: 6.36%;
+  top: 25.45%;
+  bottom: 61.82%;
+  white-space: nowrap; 
+  font-family: 'Friz Quadrata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+}
+.Player8Name{
+  position: absolute;
+  left: 87.12%;
+  right: 6.36%;
+  top: 41.82%;
+  bottom: 45.45%;
+  white-space: nowrap; 
+  font-family: 'Friz Quadrata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+}
+.Player9Name{
+  position: absolute;
+  left: 87.2%;
+  right: 6.29%;
+  top: 60.45%;
+  bottom: 26.82%;
+  white-space: nowrap; 
+  font-family: 'Friz Quadrata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+}
+.Player10Name{
+  position: absolute;
+  left: 87.12%;
+  right: 6.36%;
+  top: 80%;
+  bottom: 7.27%;
+  white-space: nowrap; 
+  font-family: 'Friz Quadrata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+}
+
+.SummonerSpell1{
+position: absolute;
+left: 16.67%;
+right: 79.17%;
+top: 25%;
+bottom: 50%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+}
+
+.SummonerSpell2{
+position: absolute;
+left: 16.67%;
+right: 79.17%;
+top: 50%;
+bottom: 25%;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+}
+
+
+
+.Keystone{
+position: absolute;
+left: 20.83%;
+right: 75%;
+top: 25%;
+bottom: 50%;
+
+
+}
+
+
+.Mastery{
+position: absolute;
+left: 20.83%;
+right: 75%;
+top: 50%;
+bottom: 25%;
+
+}
+
+.RoleIcon{
+  position: absolute;
+  left: 10.83%;
+  right: 85.91%;
+  top: 55%;
+  bottom: 25%;
+}
+.LossStatus{
+position: absolute;
+left: 19.85%;
+right: 76.29%;
+top: 8.18%;
+bottom: 84.09%;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+color: #ec1b1b;
+}
+
+.VictoryStatus{
+  position: absolute;
+  left: 19.85%;
+  right: 76.29%;
+  top: 8.18%;
+  bottom: 84.09%;
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  
+  color: #1990df;
+  }
