@@ -13,7 +13,7 @@ Summoner Recap displays past match history for player accounts, including ranked
 Features:
 * Displays statitics from ranked games, including wins, losses and win/loss ratio- along with current League Points for the player.
 * Displays past 5 games of the searched account, along with the items purchased, names and champions of other players in each game along with the items purchased, level and K/D/A.
-* Displays background each time the page is loaded.
+* Displays random splash art each time a page is loaded.
 
 
 ![MatchHistory](https://user-images.githubusercontent.com/69439997/165826420-6f0ecd8d-e0f0-4a91-90c9-d782e7d21eed.png)
