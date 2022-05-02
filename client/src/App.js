@@ -118,6 +118,8 @@ export default App;
 
 */
 
+/// Temporary way of loading a random background.
+
 const imgUrl = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/"
 const championList = [
   "Aatrox","Ahri","Akali","Alistar","Amumu","Anivia","Annie","Aphelios","Ashe","AurelionSol","Azir",
