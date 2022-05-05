@@ -15,11 +15,6 @@ function App() {
   const [leagueData, setLeagueData] = useState([]);
   const [rankLeagues, setRankLeague] = useState([]);
 
-//New Addition for Props to Send Data
-  const [data, setData] = useState('')
-  const searchInfo =(searchInput)=>{setData(searchInput);};
-  
-
   function getPlayerGames(event) {
     axios.get("http://localhost:4000/past5Games", { params: { username: data}})
     .then(function (response) {
